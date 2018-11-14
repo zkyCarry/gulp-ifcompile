@@ -1,0 +1,26 @@
+{
+  "name": "gulp-ifcompile",
+  "version": "1.0.0",
+  "description": "A js conditional compling plugin for gulp. The project reference 'ifdebug', thanks James.Huang, ifdebug url:http://www.hz300.com/gulp-ifdebug/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "dependencies": {
+    "through2": "*"
+  },
+  "keywords": [
+    "gulp",
+    "ifcompile",
+    "ifdebug",
+    "conditional",
+    "compile"
+  ],
+  "author": {
+    "name": "Carry.zky",
+    "email": "z_kaiyu@163.com",
+    "url": "https://github.com/zky1347888/gulp-ifcompile"
+  },
+  "license": "MIT",
+  "readme": "readme.md"
+}
