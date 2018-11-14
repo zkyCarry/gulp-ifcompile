@@ -2,7 +2,7 @@
 A conditional compling plugin for gulp. You can easily output two different codes for conditional with one source code.
 
 一个用于实现条件编译的gulp插件。可以自行添加不同的条件，类似宏的预编译。
-##Current condition
+## Current condition
 ```+
 	condition = {
     	isDebug:{begin:"IFDEBUG", end:"FIDEBUG"},
@@ -12,7 +12,7 @@ A conditional compling plugin for gulp. You can easily output two different code
 	}
 ```
 
-##Usage in JS files Just use it like this:
+## Usage in JS files Just use it like this:
 
 ```+
 	/*IFCONDITION Any js here FICONDITION*/
@@ -38,7 +38,7 @@ Since it is a comment style, the code can run normaly even though gulp-ifcompile
 
 因为是注释的形式，故即使不运行gulp-ifcompile，也不影响js代码的运行。
 
-##Config in gulp You should call this plugin before other js file processes, like this:
+## Config in gulp You should call this plugin before other js file processes, like this:
 
 需要在js文件的其他处理过程之前调用此插件，像这样：
 
@@ -50,7 +50,7 @@ gulp.task('js', function () {
 });
 ```
 
-##options
+## options
 isCondition: {bool = true}
 
 If isCondition === false, all the codes between "/*IFCONDITION" and "FICONDITION*/" will be removed, otherwise the codes will be remained.
