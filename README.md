@@ -5,10 +5,10 @@ A conditional compling plugin for gulp. You can easily output two different code
 ## Current condition
 ```+
 	condition = {
-    	isDebug:{begin:"IFDEBUG", end:"FIDEBUG"},
-    	isApp:{begin:"IFAPP", end:"FIAPP"},
-    	isH5:{begin:"IFH5", end:"FIH5"},
-    	isWeChat:{begin:"IFWECHAT", end:"FIWECHAT"},
+		isDebug:{begin:"IFDEBUG", end:"FIDEBUG"},
+		isApp:{begin:"IFAPP", end:"FIAPP"},
+		isH5:{begin:"IFH5", end:"FIH5"},
+		isWeChat:{begin:"IFWECHAT", end:"FIWECHAT"}
 	}
 ```
 
