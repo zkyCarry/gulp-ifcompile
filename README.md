@@ -1,6 +1,8 @@
 # gulp-ifcompile
 A conditional compling plugin for gulp. You can easily output two different codes for conditional with one source code.
 
+npm install --save-dev gulp-ifcompile
+
 一个用于实现条件编译的gulp插件。可以自行添加不同的条件，类似宏的预编译。
 ## Current condition
 ```+
