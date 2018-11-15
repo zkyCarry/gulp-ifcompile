@@ -16,11 +16,14 @@
     "conditional",
     "compile"
   ],
-  "author": {
-    "name": "Carry.zky",
-    "email": "z_kaiyu@163.com",
-    "url": "https://github.com/zky1347888/gulp-ifcompile"
-  },
+  "author": "Carry.zky <z_kaiyu@163.com> (https://github.com/zky1347888/gulp-ifcompile)",
   "license": "MIT",
-  "readme": "readme.md"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zky1347888/gulp-ifcompile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zky1347888/gulp-ifcompile/issues"
+  },
+  "homepage": "https://github.com/zky1347888/gulp-ifcompile#readme"
 }
