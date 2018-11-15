@@ -12,10 +12,10 @@ A conditional compling plugin for gulp. You can easily output two different code
 	var ifcompile = require("ifcompile")
 	
 	gulp.task('pub', function () {
-    gulp.src(["build/Base64.js", "build/profiler/nativeProfiler.js"])
-        .pipe(ifcompile({isApp:true, isDebug:true}))
-        .pipe(concat("native.js"))
-        .pipe(gulp.dest('product/ios'));
+    		gulp.src(["build/Base64.js", "build/profiler/nativeProfiler.js"])
+        	.pipe(ifcompile({isApp:true, isDebug:true}))
+        	.pipe(concat("native.js"))
+        	.pipe(gulp.dest('product/ios'));
         
 ```
 
